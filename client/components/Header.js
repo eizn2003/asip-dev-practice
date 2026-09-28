@@ -9,7 +9,7 @@ export const createHeader = () => {
         Furni<span class="header-logo-dot">.</span>
       </a>
 
-      <nav class="site-header__nav" aria-label="Main navigation">
+      <nav>
       <div class="header-action-fields">
         <input class="search-field" id="search" type="text" placeholder="Search for items" />
         <div class="header-icons">
@@ -17,6 +17,7 @@ export const createHeader = () => {
         <img src="/asip-dev-practice/client/images/cart-icon.svg" />
         </div>
       </div>
+      <img src="" alt="" />
       </nav>
     </div>
   `;
